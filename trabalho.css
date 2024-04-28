@@ -1,0 +1,75 @@
+.cabeca{justify-content: center;
+        display: flex;
+        background-color: rgb(0, 153, 255);
+}
+
+*{padding: 0%;
+   margin: 0%;
+   box-sizing: border-box; 
+}
+:root {
+    background-image: url(Papel.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.class1 {
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+    height: 200px;
+    border-radius: 0px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container  main{
+    flex: 1 1 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.sidebar {
+    width: 400px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 10px;
+    padding: 20px;
+    height: 520px;
+    margin: auto;
+}
+
+p {
+    color: aliceblue;
+}
+
+button {
+    background-color: rgb(44, 188, 255);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 340px;
+}
+
+button:hover {
+    background-color: rgb(57, 111, 212);
+}
+
+a {
+    color: aliceblue;
+}
+
+.footer {
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .logo{justify-content: center;
+        display: flex;
+}

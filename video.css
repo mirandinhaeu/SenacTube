@@ -1,0 +1,53 @@
+.exp video{
+    width: 300;
+    height: 150px;    
+    margin-left: 30px;
+    box-sizing: 20px;
+    border: solid rgb(0, 153, 255);
+}
+.exp {justify-content: center;
+      display: flex;  
+}
+.exp p{margin-left: 30px;
+       margin-bottom: 20px; 
+}
+:root {background-color: azure;}
+
+.cabeca{justify-content: center;
+    display: flex;
+    background-color: rgb(0, 153, 255);
+}
+*{padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;  
+}
+.menu{background-color: rgb(0, 153, 255);
+    padding: 22px;
+    font-size: large;
+    margin: 50px;
+    border-radius: 33px;
+}
+.menu a{margin: 10px;
+      text-decoration: none;
+      color: white;  
+}
+.footer {
+    background-color: rgb(0, 153, 255);
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container  main{
+    flex: 1 1 0;
+    background-color: transparent;
+    border: 0;
+}
+  
+ 
